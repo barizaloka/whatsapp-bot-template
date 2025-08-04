@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "target": "es6",
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "strict": true,
+    "paths": {
+      "@init/*": ["./src/init/*"],
+      "@classes/*": ["./src/libs/classes/*"],
+    }
+  }
+}
